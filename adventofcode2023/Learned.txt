@@ -1,0 +1,9 @@
+day 1:
+drop all the alphabet: re.sub("[^0-9]", "", line)
+
+day 2:
+- print class   __str__
+- filter using lambda function 
+    adults = filter(lambda x: x.red<18 and x.blue<12 and x.green<4, [DiceClass(1, 2, 3), DiceClass(4, 5, 6)])
+-- print after using lambda funtion (push to a list)
+    print(list(adults)[0])
